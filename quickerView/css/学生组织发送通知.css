@@ -1,0 +1,273 @@
+body{
+	width: 100%；
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=rgb(220,220,220),endColorStr=#FFFFFF); /*IE*/
+	background: -ms-linear-gradient(top, rgb(220,220,220),  #FFFFFF);        /* IE 10 */
+	background:-moz-linear-gradient(top,rgb(220,220,220),#FFFFFF);/*火狐*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(220,220,220)), to(#FFFFFF));/*谷歌*/
+	background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, rgb(220,220,220)),color-stop(1, #FFFFFF));/* Safari & Chrome*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='rgb(220,220,220)', endColorstr='#FFFFFF'); /*IE6 & IE7*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='rgb(220,220,220)', endColorstr='#FFFFFF')"; /* IE8 */ 
+}
+
+a:hover{
+	cursor:pointer;
+	color: #FF7033;
+	
+}
+
+i{
+	color: gray;
+}
+
+.cf:before,.cf:after {
+
+	content:"";
+	display:table;
+
+}
+
+.cf:after { 
+	clear:both;
+ }
+
+.cf { 
+	zoom:1;
+ }
+
+.header{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+.headtop p{
+	color: #0068B7;
+	font-size: 40px;
+	font-family: "微软简老宋";
+	padding: 30px 0px;
+	vertical-align:middle;
+}
+
+.headtop img{
+	width: 70px;
+	height: 70px;
+	vertical-align:middle;
+}
+
+.headtop span{
+	color: #0068B7;
+	font-size: 16px;
+	
+	display: inline;
+}
+
+.headspan span{
+	margin-left: 10px;
+}
+
+.headbot{
+	width: 1200px;
+}
+
+.navigation {
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.navigation a{
+	font-size: 18px;
+	line-height: 40px;
+	color: gray;
+	font-weight: 900;
+	display: block;
+	float: left;
+	margin: 20px 220px;
+	text-decoration:none;
+
+}
+
+.navigation a:hover{
+	color: #FF7033;
+}
+
+.navigation span{
+	
+	vertical-align:middle;
+}
+
+.navigation i{
+	color: #0083FF;
+	font-size:40px;
+	vertical-align:middle;
+}
+
+.this i{
+	color: orange;
+}
+
+
+.container{
+	width: 1200px;
+	min-height: 600px;      
+	margin: 0 auto;
+	padding: 30px 0;
+	background: white;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=3);/*ie*/
+    -moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+    -webkit-box-shadow: 2px 2px 10px #909090;/*safari或chrome*/
+    box-shadow:2px 2px 10px #909090;/*opera或ie9*/
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px; 
+    border-radius:10px;  
+}
+
+form span{
+	font-size: 20px;
+	color: #3D3D3A;
+}
+
+.input{
+	width:634px; 
+	height:44px;
+	font-size: 16px;
+	color: #3D3D3A;
+}
+
+form p{
+	margin-top: 20px;
+	
+}
+
+textarea{
+	width: 634px;
+	font-size: 12px;
+	color: #3D3D3A;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tag{
+	text-align: center;
+	line-height: 40px;
+	width: 150px;
+	display: inline-block;
+
+}
+
+.content{
+	display: inline-block;
+	width: 400px;
+	height: 40px;
+	border:1px gray solid;
+	vertical-align: bottom;
+
+
+}
+
+button{
+	width: 140px;
+	height: 40px;
+	color: #3D3D3A;
+	margin-left: 560px;
+}
+
+.scope{
+	font-size: 20px;
+	color: #3D3D3A;
+	margin-right: 620px;
+}
+
+.send{
+	margin-top:60px; 
+}
+
+
+.footer{
+	width: 1200px;
+	height: 60px;
+	margin:20px auto 0;
+	background-color:#D4D4D4;
+}
+
+.footer p{
+	line-height: 60px;
+}
+
+#close{ 
+	background:url(../img/close.png) no-repeat; 
+	width:30px; 
+	height:30px; 
+	cursor:pointer; 
+	position:absolute; 
+	right:15px; 
+	top:15px; 
+	text-indent:-999em;
+	}
+#mask{ 
+	background-color:#ccc;
+	opacity:0.5;
+	filter: alpha(opacity=50); 
+	position:absolute; 
+	left:0;
+	top:0;
+	z-index:1000;
+	}
+#login{ 
+	position:fixed;
+	z-index:1001;
+	}
+.loginCon{ 
+	position:relative; 
+	width:500px;
+	height:250px;
+	background:white center center no-repeat;
+
+	}
+
+.loginCon p{
+	font-size: 30px;
+	padding-top: 70px;
+}
+
+#must{
+	margin-top: 20px;
+	margin-left: 380px;
+}
+
+.loginCon span{
+
+}
+.loginCon label{
+	font-size: 20px;
+	color: #3d3d3a;
+}
+
+#check{
+	margin: 40px 0 0 340px;
+	width: 100px;
+}
+
+#stag{
+	
+	padding-left: 300px;
+	text-align: left;
+}
+
+
+
+.omust{
+	font-size: 12px;
+	color: red;
+	display: inline;
+}
+
+#addfile{
+	width: 140px;
+	height: 40px;
+	color: #3D3D3A;
+	margin-left: 560px;
+}
+

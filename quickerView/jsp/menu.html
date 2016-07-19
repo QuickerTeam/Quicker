@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title>辅导员登录界面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/cssreset.css" />
+<link rel="stylesheet" type="text/css" href="../css/menu.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../css/font-awesome.min.css" />
+<script src="../jQuery/jquery-2.1.0.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="smahead">
+			<span class="headspan">
+				<p>
+					<img src="../images/logo.png" />Quicker<span>The quicker , the richer</span>
+				</p>
+			</span>
+
+		</div>
+	</div>
+	<div class="container">
+		<a class="smallMenu" href="./sendNoticeCounsekor.html">
+			<i class="icon-edit icon-4x"></i>
+			<p>发送通知</p>
+		</a>
+		<a class="smallMenu" href="./checkNoticeAndExport.html">
+			<i class="icon-folder-open icon-4x"></i>
+			<p>查看通知</p>
+		</a>
+		<a class="smallMenu" href="./monitor.html">
+			<i class="icon-user-md icon-4x"></i>
+			<p>班级管理员设置</p>
+		</a>
+		
+	</div>
+	<div class="footer">
+			<p>
+			电子科技大学|信息与软件工程学院|择栖团队
+			</p>
+	</div>
+
+	</body>
+<script type="text/javascript">
+  $().ready(function(){
+	var heigh = $(window).height();
+	if(heigh>327){         
+	$(".footer").css({
+		top:heigh-60
+	});
+	};
+})
+</script>
+</html>
